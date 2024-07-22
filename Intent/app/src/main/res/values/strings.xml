@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Intent</string>
     <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="goToGoogle">Go to google!</string>
     <string name="welcomeMessage">Welcome to constraint!</string>
 </resources>

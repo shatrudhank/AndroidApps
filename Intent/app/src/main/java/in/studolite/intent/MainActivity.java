@@ -1,6 +1,7 @@
 package in.studolite.intent;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,12 +27,27 @@ public class MainActivity extends AppCompatActivity {
                 next();
             }
         });
+
+        Button goToGoogleButton=findViewById(R.id.gotoGoogle);
+        goToGoogleButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToGoogle();
+            }
+        });
     }
 
 
     public void  next()
     {
         Intent intent=new Intent(this,NextPage.class);
+        startActivity(intent);
+    }
+
+    public void goToGoogle()
+    {
+        Uri uri=Uri.parse("https://www.google.com");
+        Intent intent=new Intent(Intent.ACTION_VIEW,uri);
         startActivity(intent);
     }
 }

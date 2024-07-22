@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LuckyNumber</string>
+    <string name="welcome">Welcome to lucky number</string>
+    <string name="user_name">Please enter your name</string>
+    <string name="wishMe">Wish me a luck!</string>
+    <string name="luckyNumber">Your luck number is</string>
+    <string name="share">Share</string>
+</resources>
