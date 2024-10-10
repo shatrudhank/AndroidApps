@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Dvm_media_player" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/appBackground</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="color">@color/white</item>
+
+    </style>
+
+    <style name="Theme.Dvm_media_player" parent="Base.Theme.Dvm_media_player" />
+
+    <style name="PlayerTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Set window background to transparent -->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
